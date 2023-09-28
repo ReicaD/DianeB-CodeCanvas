@@ -18,24 +18,48 @@
   margin-bottom: 1.5rem;
 }
 
-.skillDesc{
-    font-weight: 400;
-    font-size: 1rem;
-    max-width: 50rem;
-    padding:0 2rem ;
+.skillDesc {
+  color: black;
+  font-weight: 400;
+  font-size: 1rem;
+  max-width: 50rem;
+  padding: 0 2rem;
 }
 
-/* .skillBars{
-    margin: 1.5rem;
-    width: 100vw;
-    max-width: 80%;
-    text-align: left;
-} */
+.skillBars {
+  margin: 1.5rem;
+  width: 100vw;
+  max-width: 80%;
+  text-align: left;
+}
 
-.skillBar{
-    display: flex;
-    margin: rem;
-    padding: 1.5rem 2rem;
-    border-radius: 0.5rem;
-    background: black;
+.skillBar {
+  display: flex;
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background: peru;
+}
+
+.skillBarImg{
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+  margin-right: 2rem ;
+}
+.skillBarText{
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 720px) {
+  .skillBarText>p {
+    font-size: 2vw;
+  }
+  
+}
+
+@media screen and (max-width: 720px) {
+
+
 }

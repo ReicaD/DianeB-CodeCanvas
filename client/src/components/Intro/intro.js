@@ -20,7 +20,7 @@ function Intro() {
            to contribute
           to company success.
         </p>
-        <Link><button className="btn"><img src={btnImg} alt="Ready To Work" className="btnImg"/>Ready To Work</button></Link>
+        <Link to="/"><button className="btn"><img src={btnImg} alt="Ready To Work" className="btnImg"/>Ready To Work</button></Link>
       </div>
       <img src={bg} alt="Profile" className="bg" />
     </section>

@@ -7,16 +7,16 @@ import AppDesign from "../../assets2/responsive-design.png";
 function skills() {
   return (
     <section id="skills">
-      <span className="skillTitls">About My work</span>
+      <span className="skillTitle">About My work</span>
       <span className="skillDesc">
         {" "}
         Detail-oriented, organized and meticulous employee. Works at fast pace
         to meet tight deadlines.{" "}
       </span>
-      <div className="skillBar">
-        <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
+      <div className="skillBars">
         <div className="skillBar">
-          <img src="" alt="" className="" />
+        <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
+          {/* <img src="" alt="" className="" /> */}
           <div className="skillBarText">
             <h2>UI/UX Designs</h2>
             <p>Bado</p>
