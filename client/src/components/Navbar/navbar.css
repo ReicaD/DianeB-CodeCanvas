@@ -30,7 +30,7 @@
 }
  
 .desktopMenuBtn{
-    background: cornsilk;
+    background: white;
     margin: auto;
     padding: 1rem 2rem;
     color: black;
@@ -45,10 +45,11 @@
 }
 
 .desktopMenuImg {
+    
  object-fit: cover;
- height: 1rem;
-  width: 1rem;
-  margin: 1rem;
+ height: 100;
+  width: 1.2rem;
+  
    
 }
  

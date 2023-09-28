@@ -1,7 +1,7 @@
 import React from "react";
 import "./intro.css";
-import bg from "../../assets2/picture.png";
-import btnImg from "../../assets2/portfolio.png";
+import bg from "../../assets2/pictured.png";
+import btnImg from "../../assets2/graphic-design.png";
 import { Link } from "react-scroll";
 
 function Intro() {
@@ -15,11 +15,12 @@ function Intro() {
           Website Designer
         </span>
         <p className="introPara">
-          Detail-oriented, organized and meticulous employee. Works at fast pace
-          Enthusiastic team player ready to contribute
+     
+           ready
+           to contribute
           to company success.
         </p>
-        <Link><button className="btn"><img src={btnImg} alt="Ready To Work"/>Ready To Work</button></Link>
+        <Link><button className="btn"><img src={btnImg} alt="Ready To Work" className="btnImg"/>Ready To Work</button></Link>
       </div>
       <img src={bg} alt="Profile" className="bg" />
     </section>
