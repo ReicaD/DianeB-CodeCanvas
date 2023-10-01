@@ -41,25 +41,31 @@
   background: peru;
 }
 
-.skillBarImg{
+.skillBarImg {
   object-fit: cover;
   height: 3rem;
   width: 3rem;
-  margin-right: 2rem ;
+  margin-right: 2rem;
 }
-.skillBarText{
+.skillBarText {
   font-size: 0.9rem;
   font-weight: 200;
 }
 
 @media screen and (max-width: 720px) {
-  .skillBarText>p {
+  .skillBarText > p {
     font-size: 2vw;
   }
-  
 }
-
-@media screen and (max-width: 720px) {
-
-
+@media screen and (max-width: 480px) {
+  .skillBarText > p {
+    font-size: 2vw;
+  }
+  .skillBarImg {
+    height: 2.5rem;
+    width: 2.25rem;
+  }
+  .skillBarText > h2 {
+    font-size: 5vw;
+  }
 }
