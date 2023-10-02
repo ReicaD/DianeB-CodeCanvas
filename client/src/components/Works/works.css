@@ -9,13 +9,15 @@
   justify-content: center;
   text-align: center;
   padding: 0 1rem;
+  object-fit: scale-down;
+ 
 }
 
 .worksTitle {
   margin: 1rem 0;
   font-size: 3rem;
 }
-.werksDesc {
+.worksDesc {
   font-weight: 300;
   font-size: 1rem;
 }
@@ -31,7 +33,7 @@
 
 .worksImg {
   object-fit: cover;
-  height: 20rem;
+  height: 2rem;
   margin: 0.5rem;
 }
 
