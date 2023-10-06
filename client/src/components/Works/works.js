@@ -19,12 +19,12 @@ function Works() {
         to success.
       </span>
       <div className="worksImgs">
-        <img src={Portfolio1} alt="" className="wokrsImg" />
-        <img src={Portfolio2} alt="" className="wokrsImg" />
-        <img src={Portfolio3} alt="" className="wokrsImg" />
-        <img src={Portfolio4} alt="" className="wokrsImg" />
-        <img src={Portfolio5} alt="" className="wokrsImg" />
-        <img src={Portfolio6} alt="" className="wokrsImg" />
+        <img src={Portfolio1} alt="portfolio1" className="wokrsImg" />
+        <img src={Portfolio2} alt="portfolio2" className="wokrsImg" />
+        <img src={Portfolio3} alt="portfolio3" className="wokrsImg" />
+        <img src={Portfolio4} alt="portfolio4" className="wokrsImg" />
+        <img src={Portfolio5} alt="portfolio5" className="wokrsImg" />
+        <img src={Portfolio6} alt="portfolio6" className="wokrsImg" />
       </div>
       <button className="workBtn">
         See More

@@ -23,6 +23,7 @@
 .clientImgs {
   margin: 1rem;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .clientImg {
@@ -31,9 +32,55 @@
   width: 23%;
   min-width: 9rem;
   padding: 0.25rem;
-   
 }
 
-#client{
-  
+#clients {
+  padding: 2rem;
+}
+
+.contactPageTitle {
+  padding: 2rem;
+}
+
+.contactDesc {
+  padding: 1rem;
+  font-size: medium;
+  font-weight: 300;
+}
+
+.contactForm {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 60rem;
+}
+
+.name,.email,.msg {
+  background-color:#F5F5DC;
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color:red;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.submitBtn{
+  font-size: medium;
+  background-color: white;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  padding: 0.7rem 3.5rem;
+
+}
+
+.links{
+  display: flex;
+  flex-wrap: wrap;
 }

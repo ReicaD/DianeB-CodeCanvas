@@ -2,7 +2,9 @@ import React from "react";
 import "./contact.css";
 import Linkedin from "../../assets2/linkedin.png";
 import Github from "../../assets2/github.png";
-// import { Link } from "react-scroll";
+import InstagramIcon from "../../assets2/instagram-logo.png";
+import TwitterIcon from "../../assets2/twitter.png";
+ 
 
 function Contact() {
   return (
@@ -34,11 +36,11 @@ function Contact() {
             placeholder=" your message"
           ></textarea>
           <button type="submit" value="send" className="submitBtn">
-            submit
+            Submit
           </button>
           <div className="links">
-            <img src={"link"} alt="" className="link" />
-            <img src={"link"} alt="" className="link" />
+            <img src={InstagramIcon} alt="Instagram" className="link" />
+            <img src={TwitterIcon} alt="twitter" className="link" />
           </div>
         </form>
       </div>
