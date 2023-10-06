@@ -31,7 +31,7 @@
   font-weight: 100;
 }
 .introName {
-  color: orange;
+  color:#2b5783;
 }
 .introPara {
   font-size: medium;
@@ -39,7 +39,7 @@
   letter-spacing: 1px;
 }
 .btn {
-  background: white;
+  background: rgb(230, 220, 196);
   width: fit-content;
   padding: 0.75rem 1.5rem;
   border-radius: 2rem;

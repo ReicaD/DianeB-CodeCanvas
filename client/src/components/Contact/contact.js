@@ -41,6 +41,7 @@ function Contact() {
           <div className="links">
             <img src={InstagramIcon} alt="Instagram" className="link" />
             <img src={TwitterIcon} alt="twitter" className="link" />
+            
           </div>
         </form>
       </div>

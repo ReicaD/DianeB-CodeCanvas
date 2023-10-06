@@ -84,3 +84,14 @@
   display: flex;
   flex-wrap: wrap;
 }
+.link{
+  object-fit: cover;
+  height: 4rem;
+  width: 4rem;
+  margin:0 0.85rem ;
+
+}
+
+
+
+ 
