@@ -12,7 +12,7 @@ function Intro() {
         <span className="introText">
           I'm <span className="introName">Diane</span>
           <br />
-          Website Designer
+          Software Developer
         </span>
         <p className="introPara">
      

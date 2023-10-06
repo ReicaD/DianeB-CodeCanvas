@@ -1,0 +1,12 @@
+.footer{
+   width:100vw; 
+   height:4rem;
+   background-color: orange;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 300;
+   font-size: small;
+   opacity:0.8;
+
+}
