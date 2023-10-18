@@ -15,25 +15,35 @@ function skills() {
       </span>
       <div className="skillBars">
         <div className="skillBar">
-        <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
+          <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
           {/* <img src="" alt="" className="" /> */}
           <div className="skillBarText">
             <h2>UI/UX Designs</h2>
-            <p>Bado</p>
+            <p>
+              UI designers are responsible for designing the layout and visual
+              elements of a website.UX designers focus on improving the overall
+              user experience.
+            </p>
           </div>
         </div>
         <div className="skillBar">
           <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
           <div className="skillBarText">
             <h2>WebDesign</h2>
-            <p>Bado</p>
+            <p>
+              Web design focuses on creating the visual and interactive aspects
+              of websites. Functions within web design include:
+            </p>
           </div>
         </div>
         <div className="skillBar">
           <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
           <div className="skillBarText">
             <h2> App Design</h2>
-            <p>Bado</p>
+            <p>
+              Designers create app icons and splash screens that represent the
+              app and create a positive first impression.
+            </p>
           </div>
         </div>
       </div>
