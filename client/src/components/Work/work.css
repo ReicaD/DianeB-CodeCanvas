@@ -1,3 +1,5 @@
+/** @format */
+
 #works {
   min-height: calc(100vh - 4rem);
   margin: 0 auto;
@@ -10,7 +12,6 @@
   text-align: center;
   padding: 0 1rem;
   object-fit: scale-down;
- 
 }
 
 .worksTitle {
@@ -20,6 +21,10 @@
 .worksDesc {
   font-weight: 300;
   font-size: 1rem;
+
+  /* @media screen and (max-width: 585) {
+    font-size: 3px;
+  } */
 }
 
 .worksImgs {
@@ -35,6 +40,8 @@
   object-fit: cover;
   height: 2rem;
   margin: 0.5rem;
+  width: 100px;
+  height: 100px;
 }
 
 .workBtn {
@@ -46,9 +53,8 @@
   font-size: 1rem;
 }
 
-
-@media screen and (max-width:585){
-    .workImg{
-        height: 48vw;
-    }
+@media screen and (max-width: 585) {
+  .workImg {
+    height: 48vw;
+  }
 }

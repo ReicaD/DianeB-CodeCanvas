@@ -14,10 +14,15 @@ function Navbar() {
         <Link to="portfolio" className="desktopMenuListItem">Portfolio</Link>
         <Link to="client" className="desktopMenuListItem">Client</Link>
       </div>
-      <button>
-        <img src={contactImg} alt="" className="desktopMenuImg" />
+      <button className="navBtn dropDown">
+        <img src={contactImg} alt="" className="desktopMenuImg iconContact" />
         Contact Me
       </button>
+      {/* <div className="dropDown" style={{display:"none"}}>
+        <spa></spa>
+        <spa></spa>
+        <spa></spa>
+      </div> */}
     </nav>
   );
 }

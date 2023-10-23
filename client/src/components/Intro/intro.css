@@ -6,6 +6,7 @@
   overflow: hidden;
   position: relative;
 }
+
 .bg {
   position: absolute;
   top: 3rem;
@@ -30,19 +31,29 @@
   font-size: 1.75rem;
   font-weight: 100;
 }
+
 .introName {
   color:#2b5783;
 }
+
 .introPara {
   font-size: medium;
   font-weight: 100;
   letter-spacing: 1px;
 }
+
 .btn {
   background: rgb(230, 220, 196);
   width: fit-content;
   padding: 0.75rem 1.5rem;
   border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+
+  @media only screen and (max-width: 768px){
+    padding: 0.5rem 1rem;
+    margin-top: 15px;
+  }
 }
 
 .btnImg {
@@ -55,7 +66,8 @@
 
 @media screen and (max-width: 840px) {
   .bg {
-    right: 10vw;
+    /* right: 10vw; */
+    display: none;
   }
   .introContent {
     font-size: 10vw;

@@ -1,5 +1,5 @@
 import React from "react";
-import "./works.css";
+import "./work.css";
 import Portfolio1 from "../../assets2/portfolio1.png";
 import Portfolio2 from "../../assets2/portfolio2.png";
 import Portfolio3 from "../../assets2/portfolio3.png";
@@ -19,12 +19,12 @@ function Works() {
         to success.
       </span>
       <div className="worksImgs">
-        <img src={Portfolio1} alt="portfolio1" className="wokrsImg" />
-        <img src={Portfolio2} alt="portfolio2" className="wokrsImg" />
-        <img src={Portfolio3} alt="portfolio3" className="wokrsImg" />
-        <img src={Portfolio4} alt="portfolio4" className="wokrsImg" />
-        <img src={Portfolio5} alt="portfolio5" className="wokrsImg" />
-        <img src={Portfolio6} alt="portfolio6" className="wokrsImg" />
+        <img src={Portfolio1} alt="portfolio1" className="workImg" />
+        <img src={Portfolio2} alt="portfolio2" className="workImg" />
+        <img src={Portfolio3} alt="portfolio3" className="workImg" />
+        <img src={Portfolio4} alt="portfolio4" className="workImg" />
+        <img src={Portfolio5} alt="portfolio5" className="workImg" />
+        <img src={Portfolio6} alt="portfolio6" className="workImg" />
       </div>
       <button className="workBtn">
         See More

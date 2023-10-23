@@ -3,6 +3,8 @@ import "./intro.css";
 import bg from "../../assets2/pictured.png";
 import btnImg from "../../assets2/user-experience.png";
 import { Link } from "react-scroll";
+import HeroUI from "./HeroUI";
+// import Slide from 'react-reveal';
  
 function Intro() {
   return (
@@ -23,6 +25,9 @@ function Intro() {
         <Link to="/"><button className="btn"><img src={btnImg} alt="Ready To Work" className="btnImg"/>Ready To Work</button></Link>
       </div>
       <img src={bg} alt="Profile" className="bg" />
+      {/* <Slide bottom> NOTE: ONLY WORKS WHEN LOGGED INTO GITHUB */}
+        <HeroUI/>
+      {/* </Slide>  */}
     </section>
   );
 }
