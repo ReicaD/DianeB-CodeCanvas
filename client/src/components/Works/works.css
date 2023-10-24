@@ -10,6 +10,7 @@
   text-align: center;
   padding: 0 1rem;
   object-fit: scale-down;
+  
  
 }
 
@@ -29,12 +30,13 @@
   flex-wrap: wrap;
   width: 100vw;
   max-width: 65rem;
-}
+} 
 
 .workImg {
   object-fit: cover;
   height: 2rem;
   margin: 0.5rem;
+  
 }
 
 .workBtn {
