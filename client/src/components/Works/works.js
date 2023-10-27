@@ -11,7 +11,7 @@ function Works() {
   return (
     <section id="works">
       {" "}
-      <h2 className="worksTitle">My Portfolio</h2> 
+      <h2 className="worksTitle">My Portfolio</h2>
       <span className="worksDesc">
         Dynamic and motivated professional with a proven record of generating
         and building relationships, managing projects from concept to
@@ -19,16 +19,14 @@ function Works() {
         to success.
       </span>
       <div className="worksImgs">
-        <img src={Portfolio1} alt="portfolio1" className="wokrsImg" />
-        <img src={Portfolio2} alt="portfolio2" className="wokrsImg" />
-        <img src={Portfolio3} alt="portfolio3" className="wokrsImg" />
-        <img src={Portfolio4} alt="portfolio4" className="wokrsImg" />
-        <img src={Portfolio5} alt="portfolio5" className="wokrsImg" />
-        <img src={Portfolio6} alt="portfolio6" className="wokrsImg" />
+        <img src={Portfolio1} alt="portfolio1" className="worksImg" />
+        <img src={Portfolio2} alt="portfolio2" className="worksImg" />
+        <img src={Portfolio3} alt="portfolio3" className="worksImg" />
+        <img src={Portfolio4} alt="portfolio4" className="worksImg" />
+        <img src={Portfolio5} alt="portfolio5" className="worksImg" />
+        <img src={Portfolio6} alt="portfolio6" className="worksImg" />
       </div>
-      <button className="workBtn">
-        See More
-      </button>
+      <button className="workBtn">See More</button>
     </section>
   );
 }
