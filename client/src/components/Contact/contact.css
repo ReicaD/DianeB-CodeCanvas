@@ -58,40 +58,36 @@
   max-width: 60rem;
 }
 
-.name,.email,.msg {
-  background-color:#F5F5DC;
+.name,
+.email,
+.msg {
+  background-color: #f5f5dc;
   font-size: medium;
   width: 100%;
   max-width: 40rem;
   margin: 0.5rem;
   padding: 0.5rem 1rem;
-  color:red;
+  color: black;
   border: none;
   border-radius: 0.5rem;
 }
 
-.submitBtn{
+.submitBtn {
   font-size: medium;
   background-color: white;
   border: none;
   border-radius: 0.5rem;
   margin: 2rem;
   padding: 0.7rem 3.5rem;
-
 }
 
-.links{
+.links {
   display: flex;
   flex-wrap: wrap;
 }
-.link{
+.link {
   object-fit: cover;
   height: 4rem;
   width: 4rem;
-  margin:0 0.85rem ;
-
+  margin: 0, 0.85rem;
 }
-
-
-
- 

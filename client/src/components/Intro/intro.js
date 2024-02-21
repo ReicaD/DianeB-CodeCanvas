@@ -3,7 +3,8 @@ import "./intro.css";
 import bg from "../../assets2/pictured.png";
 import btnImg from "../../assets2/user-experience.png";
 import { Link } from "react-scroll";
- 
+import HeroUI from "./HeroUI";
+
 function Intro() {
   return (
     <section id="intro">
@@ -23,6 +24,7 @@ function Intro() {
         <Link to="/"><button className="btn"><img src={btnImg} alt="Ready To Work" className="btnImg"/>Ready To Work</button></Link>
       </div>
       <img src={bg} alt="Profile" className="bg" />
+      <HeroUI/>
     </section>
   );
 }

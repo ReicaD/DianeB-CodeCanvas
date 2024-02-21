@@ -4,9 +4,25 @@ import Linkedin from "../../assets2/linkedin.png";
 import Github from "../../assets2/github.png";
 import InstagramIcon from "../../assets2/instagram-logo.png";
 import TwitterIcon from "../../assets2/twitter.png";
- 
+import  { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ppmgtxi', 'template_7day9sh', form.current, 'vuP3L-fQRsxwRcaCVZVUm')
+      .then((result) => {
+          console.log(result.text);
+          // e.target.reset();
+          // alert("Email sent !");
+      }, (error) => {
+          console.log(error.text);
+      });
+    }
+
   return (
     <section id="contactPage">
       <div id="clients">
@@ -26,9 +42,9 @@ function Contact() {
         <span className="contactDesc">
           Please fill this below to discuss work opportunities
         </span>
-        <form className="contactForm">
-          <input type="text" className="name" placeholder="your name" />
-          <input type="email" className="email" placeholder="your email" />
+        <form className="contactForm" ref={form} onSubmit={sendEmail}>
+          <input type="text" className="name" placeholder="your_name" />
+          <input type="email" className="email" placeholder="your_email" />
           <textarea
             className="msg"
             name="message"
@@ -48,4 +64,4 @@ function Contact() {
     </section>
   );
 }
-export default Contact;
+export default Contact
