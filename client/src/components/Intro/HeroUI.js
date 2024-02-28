@@ -30,8 +30,4 @@ const HeroUI = () => {
 
 export default HeroUI;
 
-//   @media only screen and (max-width: 768px) {
-//     display: none;
-//     background-color: orange;
-//   },
-// 
+ 

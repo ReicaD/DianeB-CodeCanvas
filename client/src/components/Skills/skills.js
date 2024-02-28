@@ -19,7 +19,7 @@ Databases: MySQL, MongoDB, PostgreSQL
       <div className="skillBars">
         <div className="skillBar">
           <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
-          {/* <img src="" alt="" className="" /> */}
+           
           <div className="skillBarText">
             <h2>UI/UX Designs</h2>
             <p>
@@ -53,7 +53,7 @@ Databases: MySQL, MongoDB, PostgreSQL
           </div>
         </div>
       </div>
-      {/* <h1>This is about page</h1> */}
+      <h1>This is about page</h1>
     </section>
   );
 }

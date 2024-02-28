@@ -13,18 +13,16 @@ function Works() {
       {" "}
       <h2 className="worksTitle">My Portfolio</h2>
       <span className="worksDesc">
-      Results-oriented Software Developer with a proven history of crafting dynamic, 
-      user-centric web applications. Expertise lies in the MERN Stack, coupled with 
-      a deep understanding of contemporary software development methodologies.
+        Results-oriented Software Developer with a proven history of crafting
+        dynamic, user-centric web applications. Expertise lies in the MERN
+        Stack, coupled with a deep understanding of contemporary software
+        development methodologies.
       </span>
       <div className="worksImgs">
         <img src={Portfolio1} alt="portfolio1" className="worksImg" />
-        {/* <img src={Portfolio2} alt="portfolio2" className="worksImg" /> */}
-        {/* <img src={Portfolio3} alt="portfolio3" className="worksImg" /> */}
         <img src={Portfolio4} alt="portfolio4" className="worksImg" />
         <img src={Portfolio5} alt="portfolio5" className="worksImg" />
         <img src={Portfolio6} alt="portfolio6" className="worksImg" />
-        
       </div>
       <button className="workBtn">See More</button>
     </section>
