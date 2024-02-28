@@ -10,8 +10,7 @@ import emailjs from "@emailjs/browser";
 
 function Contact() {
   const form = useRef();
-
-  // const notify = () => toast.success("Success notification!");
+ 
   const sendEmail = (e) => {
     e.preventDefault();
 
