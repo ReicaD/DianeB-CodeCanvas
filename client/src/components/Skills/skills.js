@@ -10,6 +10,9 @@ function skills() {
       <span className="skillTitle">About My work</span>
       <span className="skillDesc">
         {" "}
+        Proficient: JavaScript, Typescript
+Familiar: Vue.js, AWS (Amplify, API Gateway, Lambda functions) Front-End Technologies: React.js, Redux, React Native, Next.js, Rails Back-end: Node.js, Express.js, Nest.js
+Databases: MySQL, MongoDB, PostgreSQL
         Detail-oriented, organized and meticulous employee. Works at fast pace
         to meet tight deadlines.{" "}
       </span>
@@ -20,9 +23,9 @@ function skills() {
           <div className="skillBarText">
             <h2>UI/UX Designs</h2>
             <p>
-              UI designers are responsible for designing the layout and visual
-              elements of a website.UX designers focus on improving the overall
-              user experience.
+            Crafting intuitive and visually appealing user interfaces, 
+            I specialize in enhancing user experiences through thoughtful design, 
+            from wireframes to prototypes
             </p>
           </div>
         </div>
@@ -31,8 +34,9 @@ function skills() {
           <div className="skillBarText">
             <h2>WebDesign</h2>
             <p>
-              Web design focuses on creating the visual and interactive aspects
-              of websites. Functions within web design include:
+            Transforming ideas into responsive web layouts,
+            I create captivating websites that not only grab attention but also provide seamless navigation for users.
+
             </p>
           </div>
         </div>
@@ -41,13 +45,15 @@ function skills() {
           <div className="skillBarText">
             <h2> App Design</h2>
             <p>
-              Designers create app icons and splash screens that represent the
-              app and create a positive first impression.
+            Specializing in mobile app design, 
+            I blend aesthetics with usability to create visually appealing applications 
+            that offer an engaging user experience.
+
             </p>
           </div>
         </div>
       </div>
-      <h1>This is about page</h1>
+      {/* <h1>This is about page</h1> */}
     </section>
   );
 }

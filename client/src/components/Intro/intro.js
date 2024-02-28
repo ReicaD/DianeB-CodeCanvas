@@ -16,12 +16,9 @@ function Intro() {
           Software Developer
         </span>
         <p className="introPara">
-     
-           Ready
-           to contribute
-          to company success.
+        Prepared to contribute to company success.
         </p>
-        <Link to="/"><button className="btn"><img src={btnImg} alt="Ready To Work" className="btnImg"/>Ready To Work</button></Link>
+        <Link to="/"><button className="btn"><img src={btnImg} alt="Ready To Work" className="btnImg"/>Set to begin.</button></Link>
       </div>
       <img src={bg} alt="Profile" className="bg" />
       <HeroUI/>

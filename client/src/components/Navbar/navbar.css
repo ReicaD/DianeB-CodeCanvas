@@ -83,7 +83,7 @@
   background: rgb(223, 202, 165);
 }
 
-@media screen and (max-width:780px){
+@media screen and (max-width:720px){
   .mobMenu{
     
     display: flex;
